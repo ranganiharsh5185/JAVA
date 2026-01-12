@@ -2,6 +2,12 @@ import java.util.Scanner;
 
 public class problem_4 {
     public static void main(String[] args) {
+        problem_4 hr = new problem_4();
+        hr.Prime();
+    }
+
+    void Prime() {
+
         int count = 0;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the no.:");
