@@ -2,6 +2,12 @@ import java.util.Scanner;
 
 public class problem_2 {
     public static void main(String[] args) {
+        problem_2 hr = new problem_2();
+        hr.evenOrOdd();
+    }
+
+    void evenOrOdd() {
+
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the no.:");
         int a = sc.nextInt();
