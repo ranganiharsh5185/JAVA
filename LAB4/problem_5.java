@@ -2,6 +2,13 @@ import java.util.Scanner;
 
 public class problem_5 {
     public static void main(String[] args) {
+        problem_5 hr = new problem_5();
+        hr.leapYear();
+
+    }
+
+    void leapYear() {
+
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the year:");
         int a = sc.nextInt();
