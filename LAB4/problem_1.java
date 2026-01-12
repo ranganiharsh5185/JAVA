@@ -2,6 +2,12 @@ import java.util.Scanner;
 
 public class problem_1 {
     public static void main(String[] args) {
+        problem_1 hr = new problem_1();
+        hr.percentage();
+
+    }
+
+    void percentage() {
         int sum = 0;
         Scanner sc = new Scanner(System.in);
         for (int i = 1; i <= 5; i++) {
@@ -21,7 +27,6 @@ public class problem_1 {
         } else {
             System.out.println("Fail & percentage=" + percentage);
         }
-
     }
 
 }
