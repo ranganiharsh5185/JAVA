@@ -2,6 +2,13 @@ import java.util.Scanner;
 
 public class problem_6 {
     public static void main(String[] args) {
+        problem_6 hr = new problem_6();
+        hr.palindrome();
+
+    }
+
+    void palindrome() {
+
         int rem, temp2 = 0;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the no.:");
