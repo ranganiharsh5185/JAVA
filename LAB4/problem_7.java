@@ -2,6 +2,12 @@ import java.util.Scanner;
 
 public class problem_7 {
     public static void main(String[] args) {
+        problem_7 hr = new problem_7();
+        hr.rangePrime();
+    }
+
+    void rangePrime() {
+
         int a, b, count, k = 0;
         Scanner sc = new Scanner(System.in);
 
